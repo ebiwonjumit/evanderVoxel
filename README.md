@@ -17,8 +17,8 @@ This is a summer coding project designed for learning game development, 3D graph
 
 1. **Clone and setup the project:**
    ```bash
-   git clone <your-repo-url>
-   cd voxelcraft
+   git clone repo
+   cd evanderVoxel
    
    # Create directory structure
    mkdir -p client/{js,css,assets/{textures,sounds}}
@@ -56,7 +56,7 @@ This is a summer coding project designed for learning game development, 3D graph
 - **World**: Procedural chunk-based generation with persistence
 
 ```
-voxelcraft/
+evandervoxel/
 ├── client/          # Three.js frontend
 ├── server/          # Lua backend
 ├── tools/           # Development scripts
@@ -139,7 +139,7 @@ voxelcraft/
 - [ ] Build launcher/menu system
 - [ ] Final bug fixes and optimization
 
-## 🎯 Custom Feature Ideas
+<!-- ## 🎯 Custom Feature Ideas
 
 Brainstorm and implement your own unique features:
 
@@ -171,27 +171,8 @@ By the end of this project, you'll have hands-on experience with:
 - **Data Structures**: Spatial data structures, chunk systems
 - **Performance Optimization**: Frustum culling, LOD, batching
 - **Software Architecture**: Modular design, separation of concerns
-- **Version Control**: Git workflows, collaborative development
+- **Version Control**: Git workflows, collaborative development -->
 
-## 🛠️ Development Tips
-
-### Code Organization
-- Keep client and server code completely separate
-- Use modular design - each file should have a single responsibility  
-- Comment your code well for future reference
-- Test multiplayer features with multiple browser tabs
-
-### Performance Considerations
-- Only render chunks that are visible to the player
-- Use object pooling for frequently created/destroyed objects
-- Batch similar rendering operations together
-- Profile performance regularly
-
-### Debugging
-- Use browser developer tools for client-side debugging
-- Add comprehensive logging to the server
-- Test with multiple clients regularly
-- Keep a development journal of issues and solutions
 
 ## 📖 Resources
 
@@ -205,16 +186,6 @@ By the end of this project, you'll have hands-on experience with:
 - [Lua Programming Guide](https://www.lua.org/manual/5.4/)
 - [Game Programming Patterns](https://gameprogrammingpatterns.com/)
 - [Minecraft Wiki](https://minecraft.fandom.com/) - for inspiration
-
-## 🤝 Contributing
-
-This is a collaborative learning project! Here's how to work together effectively:
-
-1. **Communication**: Discuss features before implementing
-2. **Code Reviews**: Review each other's code before merging
-3. **Documentation**: Document new features and changes
-4. **Testing**: Test multiplayer functionality together
-5. **Git Workflow**: Use feature branches and meaningful commit messages
 
 ## 📝 Development Journal
 
