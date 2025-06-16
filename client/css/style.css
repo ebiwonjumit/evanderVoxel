@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #87CEEB;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    z-index: 100;
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#ui div {
+    margin-bottom: 5px;
+}
+
+#crosshair {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    z-index: 100;
+}
+
+#crosshair::before, #crosshair::after {
+    content: '';
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+#crosshair::before {
+    width: 20px;
+    height: 2px;
+    top: 9px;
+}
+
+#crosshair::after {
+    width: 2px;
+    height: 20px;
+    left: 9px;
+}
+
+#status {
+    font-weight: bold;
+}
+
+.online { color: #4CAF50; }
+.offline { color: #f44336; }
