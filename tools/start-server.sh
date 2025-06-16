@@ -1,4 +1,4 @@
 #!/bin/bash
 cd server
-echo "Starting VoxelCraft Lua server..."
+echo "Starting EvanderVoxel Lua server..."
 lua ../server/main.lua

@@ -1,4 +1,3 @@
 #!/bin/bash
-cd client
-echo "Starting development server on http://localhost:3000"
-python3 -m http.server 3000
+echo "Opening EvanderVoxel client..."
+open ../client/index.html  # macOS
